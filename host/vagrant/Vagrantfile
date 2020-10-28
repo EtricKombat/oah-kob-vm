@@ -115,7 +115,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   if which('ansible-playbook')
     config.vm.provision "ansible" do |ansible|
       ansible.playbook = "#{dir}/provisioning/oah-install.yml"
-      ansible.sudo = true
+      ansible.become = true
     end
   else
     config.vm.provision "ansible_local" do |ansible|

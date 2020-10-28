@@ -1,0 +1,11 @@
+---
+- debug:
+    msg: "oah-remove of oah.oah"
+
+#remove oah-usage
+
+#remove oah-shell
+
+#remove oah-users
+
+#display ansible setup

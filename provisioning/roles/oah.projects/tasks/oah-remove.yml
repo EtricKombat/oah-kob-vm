@@ -1,0 +1,4 @@
+---
+- debug:
+    msg: "oah-remove of oah.projects"
+#remove oah-shell

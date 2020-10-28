@@ -1,0 +1,16 @@
+---
+- debug:
+    msg: "oah-validate of oah.oah"
+# check oah users exists
+
+# check if oah shell exists
+
+# check if oah version
+
+# check oah status
+
+# check oah usage cron installed
+
+# display last usage message and update
+
+# display ansible status
